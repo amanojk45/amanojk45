@@ -129,3 +129,10 @@ ubuntu@ip-172-31-45-77:~/docker-selenium-new/target$ history
   
   
   https://www.methodsandtools.com/archive/testingdocker.php
+  
+  
+  https://tecadmin.net/setup-selenium-chromedriver-on-ubuntu/ 
+  
+  
+  
+  https://www.vinsguru.com/selenium-webdriver-how-to-run-multiple-test-suites-using-docker-compose/
