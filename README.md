@@ -116,3 +116,12 @@ ubuntu@ip-172-31-45-77:~/docker-selenium-new/target$ history
   106  df -h
   107  ls
   108  history
+  
+  
+  https://github.com/amartanwar42/SeleniumGridUsingDocker.git
+  https://medium.com/@amartanwar93/selenium-grid-using-docker-ab66f15c657b
+  
+  
+  https://understandingdata.com/install-google-chrome-selenium-ec2-aws
+  
+  https://groups.google.com/d/msgid/selenium-users/87cbded2-8214-4943-958e-25648dea316c%40gmail.com
