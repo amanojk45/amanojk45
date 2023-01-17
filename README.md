@@ -136,3 +136,36 @@ ubuntu@ip-172-31-45-77:~/docker-selenium-new/target$ history
   
   
   https://www.vinsguru.com/selenium-webdriver-how-to-run-multiple-test-suites-using-docker-compose/
+  
+  
+  
+  
+  
+  
+  
+  terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "4.50.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = "us-east-1"
+}
+resource "aws_key_pair" "id_rsa_games247" {
+  key_name   = "id_rsa_games247"
+  public_key = tls_private_key.rsa.public_key_openssh
+}
+
+resource "tls_private_key" "rsa" {
+  algorithm = "RSA"
+  rsa_bits  = 4096
+}
+
+resource "local_file" "id_rsa_games247" {
+    content = tls_private_key.rsa.private_key_pem
+    filename = filebase64(pathexpand("~/.ssh/id_rsa_games247"))
+    }
